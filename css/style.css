@@ -1,0 +1,106 @@
+/* global */
+html {min-height: 100%;position: relative;}
+body{font-family:"Arial", Helvetica,Helvetica Neue, sans-serif;background-color:#fff;font-size:13px;height:100%;color:#333;}
+a {color:#888;text-decoration:none;cursor:pointer;}
+a:hover {color:#41acff;text-decoration: none;}
+a:hover img{opacity:0.8;-webkit-transition: all 0.2s linear 0s;-moz-transition: all 0.2s linear 0s;-o-transition: all 0.2s linear 0s;-ms-transition: all 0.2s linear 0s;}
+h2 {font-size:18px;line-height:1.2;}
+h3 {font-size:16px;line-height:1.2;}
+h1,h2,h3,h4,h5 {font-weight:bold;text-transform:uppercase;margin:0;}
+ul,ol,li{list-style:none;margin:0;}
+label,input,button,select,textarea{font-size:13px;}
+a:focus,select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus{outline:none;}
+a.underline{text-decoration:underline;}
+ul.disc li{list-style:disc;}
+li.unstyled{list-style:none!important;}
+.separator{color:#ddd;margin:0 5px;}
+form {margin:0;}
+em {color:#FF0000;margin-right:3px;}
+::-moz-selection{background:#41acff;color:#fff; } 
+::selection {background:#41acff;color:#fff; } 
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"],.uneditable-input{padding:4px;}
+.btn,.btn:hover{font-size:14px;font-weight:bold;text-transform:uppercase;color:#888;}
+.btn:focus{outline:none;}
+.btn-large [class^="icon-"]{margin-top:-2px;}
+.btn-primary {
+background-color:#41acff;
+background-image:-moz-linear-gradient(top, #41acff, #0090ff);
+background-image:-ms-linear-gradient(top, #41acff, #0090ff);
+background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#41acff), to(#0090ff));
+background-image:-webkit-linear-gradient(top, #41acff, #0090ff);
+background-image:-o-linear-gradient(top, #41acff, #0090ff);
+background-image:linear-gradient(top, #41acff, #0090ff)
+background-repeat:repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#41acff', endColorstr='#0090ff', GradientType=0);
+border-color:#0090ff!important;
+border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);color:#fff;
+}
+.btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] {background-color:#0090ff;*background-color:#a52d93;color:#fff;}
+.btn-primary:active,
+.btn-primary.active {background-color:#0090ff \9;}
+.content{margin:90px 0;}
+.p-wrapper{margin-top:130px}
+.keyword{color:#0090ff;}
+.breadcrumb{padding:0;}
+/*header*/
+.header{position:fixed;left:0;right:0;top:0;z-index:999}
+.navbar .container{width:940px}
+.navbar .btn, .navbar .btn-group{margin-top:0;padding:4px 14px;float:left;}
+.navbar-inner{background:rgba(255, 255, 255, 0.89);border-bottom:1px solid #ddd;}
+.search_fields .input-text{float:left;margin:0 2px;}
+.search_fields .btn-primary{margin:0 0 0 5px;padding:4px 9px;position:relative;font-weight:bold;}
+.header .search_fields {float:right;margin-top:25px;top:50%;}
+.advanced{margin:20px 0;}
+.btn-advanced{display:block!important;color:#888!important;text-shadow: none!important;}
+.search-btn{width:100%;text-align:center;margin-top:20px}
+.search-btn .btn{float:none;}
+/*content*/
+.bigword{font-size:45px;line-height:1.5;text-align:center;font-weight: bold;padding:100px 150px;color:#888}
+.index .content img{width:100%}
+.job{background:url(../images/page-bg.png) repeat;}
+.job .job-content{padding:130px 150px;}
+.job .job-content h2{padding-bottom:20px;}
+.job .job-content .each-p{float:left;margin-right:30px;}
+/*left-column*/
+.left-inner .each{margin-bottom:30px;}
+.left-inner .each h2{margin-bottom:15px;border-bottom:1px solid #DDD;padding-bottom:10px;}
+.left-inner .each ul li{margin-bottom:10px;}
+.label{padding:5px;background-color:#fafafa;float:left;color:#41acff;text-shadow:none;}
+.label a{font-size:13px;margin-left:5px;}
+/*right-column*/
+.right-column .container{width:auto;}
+.right-column .breadcrumb{background-color:transparent;}
+.right-column .products-wrap .each-p a{display:block;margin-bottom:15px;font-size:20px}
+.right-column .products-wrap .each-p a:hover{text-decoration:underline;}
+.right-column .products-wrap .each-p{padding-bottom:10px;border-bottom:1px dashed #ddd;}
+/*detail*/
+.detail h1{color:#888;font-size:24px;font-weight:bold;padding-bottom:20px;border-bottom:1px solid #ddd;}
+.detail .base-info{border-bottom:1px dashed #DDD;padding-bottom:30px;margin-top:30px;}
+.info p span{color:#888;}
+.job-detail{box-shadow:1px 1px rgba(65, 172, 255, 0.8), 2px 2px rgba(65, 172, 255, 0.8), 3px 3px rgba(65, 172, 255, 0.8), 4px 4px rgba(65, 172, 255, 0.8), 5px 5px rgba(65, 172, 255, 0.8), 6px 6px rgba(65, 172, 255, 0.8);
+margin:50px 0;padding:50px;border: 1px solid rgba(65, 172, 255, 0.8)}
+.job-detail h2{color:#888;margin-bottom:20px}
+.job-detail .list ul li{list-style-type:decimal;margin:0 0 10px 45px}
+.job-detail .each{margin-bottom:30px}
+/*footer*/
+.footer{background-color:#41acff;color:#fff;height:50px;padding-top:20px;bottom:0;position:absolute;width:100%}
+/* Large desktop */
+@media (min-width: 1200px) { 
+.navbar .container{width:1170px}
+}
+@media (max-width: 979px) {
+.navbar .container{width:724px}
+.navbar .btn-navbar{display: block;margin-right:0;argin-top:28px;top:50%;}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px){
+
+}
+ /* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
